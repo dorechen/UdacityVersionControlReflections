@@ -1,0 +1,48 @@
+Q: How did viewing a diff between two versions of a file help you see 
+that the bug was introduced? 
+A: Viewing a diff makes it easy to see what changes were made in the 
+new version from the old. To find bugs, you compare the two and see 
+where you might have made a typo or made a change that didn't work 
+like you wanted.
+
+Q: How could having easy access to the entire history of a file make you
+a more efficient programmer in the long term?
+A: When you need to look back at what you, or someone else did in a 
+previous version, it can help save a lot of time searching and 
+reverting back to some code that you want.
+
+Q: What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google docs does?
+A: Having automatic comits might be better if you need to know what 
+each change was. Choosing when to commit might be better for codes when 
+saving each version. You can also be sure that each commit is 
+meaningful and logical.
+
+Q: Why do you think some version control systems, like Git, allow 
+saving multiple files in one commit, while others, like Google Docs, 
+treat each file separately?
+A: Git's system might be more convinient for codes, as there are often 
+more than one file for a project. Making a change in the code may 
+require you to change other files too. Google docs is more for 
+individual or unrelated files. If we use Google docs for codes, this 
+could mean that you will need to go through multiple files saved 
+around the same time to restore a feature in your project.
+
+Q: How can you use the commands git log and git diff to view the 
+history of files?
+A: Git log shows you all commits that were made with id and comment. 
+Git diff compares the difference between two commits. You can see 
+which lines were deleted and which were added.
+
+Q: How might using version control make you more confident to make 
+changes that could break something?
+A: Version control will have your previous versions saved. So when 
+you find a bug that wasn't there before, you can checkout previous 
+commits to see where the bug was first introduced. Then, using git 
+diff between the first bugged version with the previous one to see 
+where it went wrong.
+
+Q: Now that you have your workspace set up, what do you want to try 
+using Git for?
+A: I will use it for future projects.
