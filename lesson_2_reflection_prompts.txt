@@ -1,0 +1,11 @@
+Q: What happens when you initialize a repository? Why do you need to do 
+it?
+A: It turns your folder into a git repository. It starts out as an 
+empty git reposotory. You need to initialise it to start recording commits.
+
+Q: How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+A: The working directory is where your files are stored. The staging 
+area is where you can add a file, with changes, that you want to be 
+committed. 
+
