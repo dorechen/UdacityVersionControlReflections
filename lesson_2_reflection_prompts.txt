@@ -9,3 +9,26 @@ A: The working directory is where your files are stored. The staging
 area is where you can add a file, with changes, that you want to be 
 committed. 
 
+Q: How can you use the staging area to make sure you have one commit 
+per logical change?
+A: You can choose which file to commit by adding it to the staging 
+area first, and then using diff --staged, check with the last commit 
+before commiting. This way you can ensure that each commit is logical.
+
+Q: What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+A: Branches can be used for when you want to try a new feature but want 
+to keep it separate from the main version. This way, you can develop on 
+the new feature without disturbing the main working version, at the 
+same time you can keep working on the main version.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagrams clearly show how each commit is linked with its parent. 
+It also shows how a commit maybe be lost.
+
+Q: What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+A: Merging two branches combines the two files together, so the new 
+file should have the features of both. The diagram shows which 
+commits were made before merging each branch and where the branch 
+started.
