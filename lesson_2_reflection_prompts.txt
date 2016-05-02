@@ -32,3 +32,10 @@ A: Merging two branches combines the two files together, so the new
 file should have the features of both. The diagram shows which 
 commits were made before merging each branch and where the branch 
 started.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always 
+doing merges manually?
+A: Auto merging can save a lot of time for the user, but it might 
+not always merge the way you want it to (if some parts aren't detected 
+as a conflict and it combines the file weirdly). Doing it manually 
+can mean that you always merge them the way you want it to.
