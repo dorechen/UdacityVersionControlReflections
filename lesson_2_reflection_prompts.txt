@@ -24,7 +24,8 @@ same time you can keep working on the main version.
 
 Q: How do the diagrams help you visualize the branch structure?
 A: The diagrams clearly show how each commit is linked with its parent. 
-It also shows how a commit maybe be lost.
+It also shows how a commit may be lost if it is unreachable and doesn't 
+have a branch label.
 
 Q: What is the result of merging two branches together? Why do we 
 represent it in the diagram the way we do?
