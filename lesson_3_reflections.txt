@@ -20,3 +20,14 @@ that were made. You would use this to copy a repository from Github
 to a local repository, or from one computer to another(?).
 Branches are used when you want to try experimental changes, but you 
 don't want in the main file.
+
+Q: What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+A: This can help git do a 'fast-forward merge' when pushing/pulling 
+to/from remote. Basically, if origin/master (last known state of remote) 
+is reachable from master (your last commit), then git can just update 
+origin/master to point to master. If you trace back from B and you can 
+get to A, then it can be fast-forwarded. Fast-forward merges are based 
+on reachability. 
+Otherwise, there may be a conflict and it will perform a fetch and you 
+will need to create a new merge commit.
