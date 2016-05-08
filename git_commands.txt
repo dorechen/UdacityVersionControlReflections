@@ -5,3 +5,25 @@ mkdir directory-name          # make directory-name directory
 cd directory-name             # go to directory-name directory
 subl text-file.txt            # launch sublime with file called 
                                 text-file.txt (you can replace subl with another editor here if you prefer a different one)
+vim file-name.                # 
+q                             # quit
+
+GIT COMMANDS
+
+git diff                      # show diff between
+git diff --staged             # 
+git diff commit1 commit2      # compare the two versions of the code in 
+                                those commits (commit ids)
+git log                       # history of commits made
+git add file-name.            # add file-name to staged area
+git reset file-name.          # removes file-name from staged
+git commits                   # commits files in staged area
+git clone repository-link.git # clones repository to current dir
+git checkout a012id           #  
+
+
+
+
+OTHERS
+
+git config --global color.ui auto # gets coloured diff output
