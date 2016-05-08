@@ -1,0 +1,7 @@
+BASIC COMMANDS
+
+cd ~                          # change directories to your home directory
+mkdir directory-name          # make directory-name directory
+cd directory-name             # go to directory-name directory
+subl text-file.txt            # launch sublime with file called 
+                                text-file.txt (you can replace subl with another editor here if you prefer a different one)
