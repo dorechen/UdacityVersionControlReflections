@@ -8,3 +8,15 @@ Git automatically stay up-to-date with your remote repository?
 A: With manual pulls, you will know when your repository is updated and 
 you will know what state it's in. If it updates automatically, you might 
 not know what your files look like, it could get confusing.
+
+Q: Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+A: Forks are when you want to make a clone of someone else's 
+repository in their Github into your own Github account. You would use 
+this when you don't have permission to edit or contribute to the 
+author's repository, but you want to make your own cahnges.
+Clones are copies of a repository, this will also copy all the commits 
+that were made. You would use this to copy a repository from Github 
+to a local repository, or from one computer to another(?).
+Branches are used when you want to try experimental changes, but you 
+don't want in the main file.
