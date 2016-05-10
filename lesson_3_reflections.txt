@@ -31,3 +31,10 @@ get to A, then it can be fast-forwarded. Fast-forward merges are based
 on reachability. 
 Otherwise, there may be a conflict and it will perform a fetch and you 
 will need to create a new merge commit.
+
+Q: How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+A: Without using git or git hub, maybe I'd use google drive for 
+collaborations. But combining the changes from collaborators will be 
+very tedious. Using Git is much easier with merge, and their other 
+features.
