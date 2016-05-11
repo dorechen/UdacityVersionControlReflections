@@ -38,3 +38,12 @@ A: Without using git or git hub, maybe I'd use google drive for
 collaborations. But combining the changes from collaborators will be 
 very tedious. Using Git is much easier with merge, and their other 
 features.
+
+Q: When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+A: When collaborating, you want to show changes that you want in a 
+different branch, so it doesn't affect the main version. This way you 
+can show your version and then decide together if you want them in 
+the main one (i.e. merge into the master). It's better than submitting 
+some changes without your collaborator's knowledge.
+
