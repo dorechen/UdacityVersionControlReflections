@@ -10,18 +10,36 @@ q                             # quit
 
 GIT COMMANDS
 
+git init
 git diff                      # show diff between
 git diff --staged             # 
 git diff commit1 commit2      # compare the two versions of the code in 
                                 those commits (commit ids)
 git log                       # history of commits made
+git status
 git add file-name.            # add file-name to staged area
 git reset file-name.          # removes file-name from staged
-git commits                   # commits files in staged area
+git commit                    # commits files in staged area
+git commit -m 'commit message'#
 git clone repository-link.git # clones repository to current dir
 git checkout a012id           #  
+git branch                    # 
+git branch branch-name        # 
+git branch -d branch-name     # 
+git merge
+git pull origin branch/master # 
+git push origin branch/master # 
+git remote add origin link.   # add remote to repository. Github 
+                                repository is usually 'origin', original
+                                repository your forked from is usually 
+                                'upstream'
+git remote -v
 
-
+git reset HEAD --hard commit1 # move HEAD back to a commit. This will 
+                                destory any local modifications. Don't
+                                do if there is uncommited work you want 
+                                to keep
+git reset --hard HEAD~1       # resets head back 1 commit
 
 
 OTHERS
